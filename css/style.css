@@ -62,6 +62,11 @@ hr {
     display: inline-block;
 }
 
+.abv {
+    color: red;
+    font-weight: 700;
+}
+
 .banner {
     max-width:100%;
     margin-bottom: 20px;
@@ -70,8 +75,17 @@ hr {
 .collection-headline {
     display: flex;
     justify-content: center;
-    margin: 20px auto;
+    margin: 20px auto 50px;
     width: 80%;
+}
+
+.collection-image {
+    border: 1px solid black;
+    border-radius: 5px;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    max-width: 300px;
 }
 
 .collection-info {

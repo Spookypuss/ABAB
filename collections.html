@@ -6,6 +6,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <meta name="description" content="Authoritarian Brewery and Anarchy Brewery create collections of beer for summer hampers and special occasions.  Find details of past ABAB beer collections here." />
+    <script src="https://kit.fontawesome.com/0b530e2e25.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="/css/style.css">
     <title>Collections | Authoritarian Brewery x Anarchy Brewery</title>
 </head>
@@ -43,7 +44,8 @@
             </div>
           </div>
     </nav>
-    <!-- To make responsive, have banner image full width, drop side paragraphs beneath, below md size screen-->
+    <!-- To make responsive, have banner image full width, drop side paragraphs beneath,and reduce font-size, below md size screen-->
+    <!-- Optimise images -->
     <h1>
         Collections
     </h1>
@@ -59,17 +61,51 @@
             </div>
         </div>
     </div>
+    <hr />
     <!--Insert beers here-->
     <div class="collection-container">
         <div class="row">
             <div class="col-4">
-                Beer title and image goes here!
+                <img src="/images/square-summer-of-love.png" alt="Label showing linoprint of a skull" title="Summer of Love" class="collection-image"/>
             </div>
-        
-        <div class="col-8">
-            Beer description goes here!
+            <div class="col-8">
+                    <div class="row">
+                        <h2 class="fs-4 fw-bold">
+                            Summer of Love
+                        </h2>
+                    </div>
+                        <p>To commemorate the 2019 Whitby wedding of a couple of love birds we know, ABAB produced a strawberry witbier with Stirling hops 
+                            (developed in Corvalis, the spiritual home of the Grateful Dead).</p>  
+                        <br />
+                        <p class="abv">6% ABV</p>
+                        <br/>
+                        <p>The label was a nod to the Grateful Dead, handmade with ink on Lino-cut print.</p>
+                    </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4 ">
+                <img src="/images/square-magnum-pi.png" alt="Label showing linoprint of a red car" title="Magnum PI" class="collection-image"/>
+                <!-- Why the hell is this justified differently from above?-->
+            </div>
+            <div class="col-8">
+                    <div class="row">
+                        <h2 class="fs-4 fw-bold">
+                            Magnum P.I.
+                        </h2>
+                    </div>
+                        <p>This is just an example, but the PI in Magnum PI stands for 'personal intoxification'</p>  
+                        <br />
+                        <p class="abv">7% ABV</p>
+                        <br/>
+                        <p>The label was inspired by the box-set cover for the classic detective drama Magnum P.I.</p>
+                    </div>
+            </div>
         </div>
     </div>
-    </div>
+    <br />
+    <footer id="contact-link">
+        <strong>Contact</strong>:   <i class="fa-regular fa-envelope"></i> info@abab-brewery.com
+    </footer>
 </body>
 </html>
