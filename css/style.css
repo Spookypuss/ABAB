@@ -3,7 +3,15 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    cursor: pointer;
+    opacity: 70%;
+    transition: all 0.2s ease-in-out;
+}
+
 body {
+    display: flex;
+    flex-direction: column;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0 auto;
 }
@@ -42,10 +50,12 @@ hr {
 }
 
 .about-img {
-    max-width: 40%;
-    display: inline;
+    border: 2px solid black;
     border-radius: 5px;
-    border: 1px solid black;
+    display: block;
+    height: auto;
+    margin: 10px auto;
+    max-width: 60%;
 }
 
 .about-container {
@@ -133,7 +143,20 @@ hr {
     border: 1px solid black;
     border-radius: 5px;
     display: block;
+    height: auto;
     margin: 10px auto 35px;
-    max-width: 400px;
+    max-width: 360px;
     padding: 0;
+}
+
+@media (max-width: 1400px) {
+    .square-image {
+        height: auto;
+        max-width: 200px;
+    }
+}
+
+#cuspir {
+    max-height: 500px;
+    width: auto;
 }
