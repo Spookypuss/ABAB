@@ -48,6 +48,13 @@ hr {
     width: 62%;
 }
 
+.hr-mini {
+    border: 2px solid red;
+    margin: 0 auto 40px;
+    opacity: 100;
+    width: 20%;
+}
+
 .about-img {
     border: 2px solid black;
     border-radius: 5px;
@@ -81,6 +88,21 @@ hr {
     margin-bottom: 20px;
 }
 
+.collections-banner {
+    border: 1px solid black;
+    border-radius: 5px;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    max-width: 80%;
+}
+
+.collection-container {
+    display: block;
+    margin: 20px auto;
+    padding: 20px;
+}
+
 .collection-headline {
     display: flex;
     justify-content: center;
@@ -88,30 +110,11 @@ hr {
     width: 80%;
 }
 
-.collection-image {
-    border: 1px solid black;
-    border-radius: 5px;
-    display: block;
-    height: auto;
-    margin: 0 auto;
-    max-width: 300px;
-}
-
 .collection-info {
-    font-size: 24px;
-}
-
-.collections-banner {
-    border: 1px solid black;
-    border-radius: 5px;
-    height: auto;
-    max-width: 100%;
-}
-
-.collection-container {
     display: block;
+    font-size: 24px;
     margin: 20px auto;
-    padding: 20px;
+    max-width: 80%;
 }
 
 .homepage-container {
@@ -138,6 +141,10 @@ hr {
     height: auto;
 }
 
+.page-header {
+    margin-top: 70px;
+}
+
 .square-image {
     border: 1px solid black;
     border-radius: 5px;
@@ -149,6 +156,10 @@ hr {
 }
 
 @media (max-width: 1400px) {
+    .collection-info h3 {
+        font-size: 20px;
+}
+
     .square-image {
         height: auto;
         max-width: 200px;
@@ -160,6 +171,19 @@ hr {
         font-size: 24px;
         margin-top: 20px;
         padding: 0;
+    }
+
+    .collection-container {
+        display: block;
+        Margin: 20px auto;
+    }
+
+    .collection-container h2 {
+        text-align: center;
+    }
+
+    .collection-item-description {
+        text-align: center;
     }
 
     .homepage-heading {

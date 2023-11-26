@@ -46,64 +46,78 @@
     </nav>
     <!-- To make responsive, have banner image full width, drop side paragraphs beneath,and reduce font-size, below md size screen-->
     <!-- Optimise images -->
-    <h1>
+    <h1 class="page-header">
         Collections
     </h1>
-    <div class="collection-headline">
-        <div class="row">
-            <div class="col-8">
-                <img src="/images/collections-banner.png" alt="Two handwritten lists of beers" title="Beer collections" class="collections-banner img-fluid"/>
-            </div>
-            <div class="col-4">
-                <h3 class="collection-info">ABAB collections range from commemorative single-batch brews to morale-boosting hamper deliveries.</h3>
-                <br />
-                <h3 class="collection-info">To receive a future hamper, or to enquire about commemorative brews, contact your local ABAB representative.</h3>
-            </div>
-        </div>
+    <img src="/images/collections-banner.png" alt="Two handwritten lists of beers" title="Beer collections" class="collections-banner img-fluid"/>
+    <div class="collection-info">
+    <h3>ABAB collections range from commemorative single-batch brews to morale-boosting hamper deliveries.</h3>
+    <br />
+    <h3>To receive a future hamper, or to enquire about commemorative brews, contact your local ABAB representative.</h3>
     </div>
     <hr />
     <!--Insert beers here-->
     <div class="collection-container">
         <div class="row">
-            <div class="col-4">
-                <img src="/images/square-summer-of-love.png" alt="Label showing linoprint of a skull" title="Summer of Love" class="collection-image"/>
+            <div class="col-4 d-none d-lg-block">
+                <img src="/images/square-summer-of-love.png" alt="Linoprint of a skull, encircled with the writing 'Summer of Love, Laura & Ian 2019" title="Summer of Love" class="square-image"/>
             </div>
-            <div class="col-8">
-                    <div class="row">
-                        <h2 class="fs-4 fw-bold">
-                            Summer of Love
-                        </h2>
-                    </div>
-                        <p>To commemorate the 2019 Whitby wedding of a couple of love birds we know, ABAB produced a strawberry witbier with Stirling hops 
-                            (developed in Corvalis, the spiritual home of the Grateful Dead).</p>  
-                        <br />
-                        <p class="abv">6% ABV</p>
-                        <br/>
-                        <p>The label was a nod to the Grateful Dead, handmade with ink on Lino-cut print.</p>
-                    </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-4 ">
-                <img src="/images/square-magnum-pi.png" alt="Label showing linoprint of a red car" title="Magnum PI" class="collection-image"/>
-                <!-- Why the hell is this justified differently from above?-->
-            </div>
-            <div class="col-8">
-                    <div class="row">
-                        <h2 class="fs-4 fw-bold">
-                            Magnum P.I.
-                        </h2>
-                    </div>
-                        <p>This is just an example, but the PI in Magnum PI stands for 'personal intoxification'</p>  
-                        <br />
-                        <p class="abv">7% ABV</p>
-                        <br/>
-                        <p>The label was inspired by the box-set cover for the classic detective drama Magnum P.I.</p>
-                    </div>
+            <div class="col collection-item-description">
+                <div class="row">
+                    <h2 class="fs-4 fw-bold">
+                        Summer of Love
+                    </h2>
+                </div>
+                <p>To commemorate the 2019 Whitby wedding of a couple of love birds we know, ABAB produced a strawberry witbier with Stirling hops 
+                    (developed in Corvalis, the spiritual home of the Grateful Dead).</p>  
+                <br />
+                <p class="abv">6% ABV</p>
+                <br/>
+                <p>The label was a nod to the Grateful Dead, handmade with ink on Lino-cut print.</p>
             </div>
         </div>
     </div>
-    <br />
+    <hr class="hr-mini" />
+    <div class="collection-container">
+        <div class="row">
+            <div class="col-4 d-none d-lg-block">
+                <img src="/images/young-toby.png" alt="Drawing of a baby giving two fingers to the world" title="Young Toby" class="square-image"/>
+            </div>
+            <div class="col collection-item-description">
+                <div class="row">
+                    <h2 class="fs-4 fw-bold">
+                        Young Toby
+                    </h2>
+                </div>
+                <p>Young Toby, or To-beer, was produced on the event of the birth of a new Toby, and was a Cascade single-hop ale.</p>  
+                <br />
+                <p class="abv">6% ABV</p>
+                <br/>
+                <p>The label was a recreation of a photo where the young blighter was showing the world what he thought about being out in cold harsh light of day.</p>
+            </div>
+        </div>
+    </div>
+    <hr class="hr-mini" />
+    <div class="collection-container">
+        <div class="row">
+            <div class="col-4 d-none d-lg-block">
+                <img src="/images/heidi-hi.png" alt="Drawing of a sleeping baby holding a bottle of beer, with the heading 'Heidi Hi'" title="Heidi Hi" class="square-image"/>
+            </div>
+            <div class="col collection-item-description">
+                <div class="row">
+                    <h2 class="fs-4 fw-bold">
+                        Heidi Hi
+                    </h2>
+                </div>
+                <p>Heidi-Hi, was another ale produced on the event of a birth, this time a summer ale for a new Heidi.</p>  
+                <br />
+                <p class="abv">6% ABV</p>
+                <br/>
+                <p>This label was again made in a pen-and-ink style from a photo of Heidi’s birth, and had the cheeky inclusion of a beer bottle, 
+                    which is what the original image seemed to be crying out for.</p>
+            </div>
+        </div>
+    </div>
     <footer id="contact-link">
         <strong>Contact</strong>:   <i class="fa-regular fa-envelope"></i> info@abab-brewery.com
     </footer>
