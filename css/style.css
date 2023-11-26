@@ -200,6 +200,10 @@ hr {
     h1 {
         font-size: 18px;
     }
+
+    .collection-info h3 {
+        font-size: 16px;
+    }
 }
 
 #cuspir {
