@@ -41,23 +41,18 @@ h1 {
 }
 
 h2 {
-    padding: 20px;
+    padding: 10px 20px 20px;
     text-align: left;
 }
 
 hr {
     border: 2px solid red;
-    margin: 0 auto 40px;
+    margin: 0 auto 10px;
     opacity: 100;
     width: 62%;
 }
 
-.hr-mini {
-    border: 2px solid red;
-    margin: 0 auto 40px;
-    opacity: 100;
-    width: 20%;
-}
+
 
 .about-img {
     border: 2px solid black;
@@ -136,6 +131,11 @@ hr {
     padding: 30px 20px;
 }
 
+.header h1 {
+    font-size: 60px;
+    margin-bottom: 0;
+}
+
 .homepage-container {
     display: flex;
     justify-content: space-between;
@@ -146,6 +146,13 @@ hr {
     margin-bottom:0;
     padding-bottom:5px;
     text-align: center;
+}
+
+.hr-mini {
+    border: 2px solid red;
+    margin: 0 auto 40px;
+    opacity: 100;
+    width: 20%;
 }
 
 .logo {
@@ -205,6 +212,14 @@ hr {
         text-align: center;
     }
 
+    .header h1 {
+        font-size: 30px;
+    }
+
+    .header h2 {
+        font-size: 24px;
+    }
+
     .homepage-heading {
         font-size: 20px;
     }
@@ -222,6 +237,14 @@ hr {
 
     .collection-info h3 {
         font-size: 16px;
+    }
+
+    .header h1 {
+        font-size: 20px;
+    }
+
+    .header h2 {
+        font-size: 18px;
     }
 }
 
